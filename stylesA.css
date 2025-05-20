@@ -1,0 +1,135 @@
+/* styles.css para Apps */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Encabezado */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 50px;
+}
+
+/* Menú de navegación */
+.menu {
+    background-color: #4CAF50;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.menu ul li a:hover {
+    background-color: #45a049;
+    border-radius: 5px;
+}
+
+/* Sección de aplicaciones */
+.app-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.app-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.app-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.app-card h3 {
+    margin: 10px 0;
+}
+
+.app-card button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.app-card button:hover {
+    background-color: #45a049;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
